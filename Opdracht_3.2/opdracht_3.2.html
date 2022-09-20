@@ -1,25 +1,44 @@
-<H2>Vliegticket boeken</H2>
-<form>
+
+<html>
+<head>
+<link rel="stylesheet" href="Form.css">
+
+</head>
+<H1>Vliegticket boeken</H1>
+<body>
+  <form>
     <label for="vnaam">Voornaam:</label><br>
     <input type="text" required pattern="[a-zA-Z]*" id="vnaam" name="vnaam"><br>
+
     <label for="anaam">Achternaam:</label><br>
     <input type="text" required pattern="[a-zA-Z]*" id="anaam" name="anaam"><BR>
+
       Gender:<BR>
+
     <input type="radio" name="Gender" value="Man" checked>Man <br>
+
     <input type="radio" name="Gender" value="vrouw">Vrouw <br>
+
     <input type="radio" name="Gender" value="Anders">Anders <br>
+
     <label for="Straat">Straatnaam: </label><br>
     <input type="text" required pattern="[a-zA-Z]*" id="Straatnaam" name="Straatnaam"><br>
+
     <label for="huisnummer">Huisnummer:</label><br>
     <input type="number" minlength="0" id="huisnummer" name="huisnummer"> <br>
+
     <label for="Postcode">Post code:</label><br>
     <input type="text" required pattern="[0-9A-Z]*" maxlength="6" id="Post code" name="Post code"> <br>
+
     <label for="Stad">Stad: </label> <br>
     <input type="text" required pattern="[a-zA-Z]*" id="Stad" name="Stad"> <br>
+
     <label for="Land">Land: </label> <br>
     <input type="text" required pattern="[a-zA-Z]*" id="Land" name="Land"> <br>
+
     <label for="BSN-nummer">BSN-Nummer: </label> <br>
     <input type="text"  maxlength="9" required pattern="[0-9]*" id="BSN-Nummer" name="BSN-Nummer"> <br>
+
     <label for="Landen">Naar welk land?</label><br>
       <select id="Landen">
         <option value="Kies een land">Kies een Land</option>
@@ -31,21 +50,38 @@
         <option value="Curacao">Curacao</option>
         <option value="Spanje">Spanje</option>
       </select><br>
+
     <label for="datemin">Datum van vertrek:</label><br>
     <input type="date" id="datemin" name="datemin" min="2022-09-16"><br>
+
     <label for="datemax">Datum van terugkomst:</label><br>
     <input type="date" id="datemin" name="datemin" min="2022-09-17"><br>
+
     <label for="Aantal">Hoeveel tickets?</label><br>
       <select id="Aantal">
         <option value="1"> 1 </option>
         <option value="2"> 2 </option>
         <option value="3"> 3 </option>
         <option value="4"> 4 </option>
-      </select><br><br><br><br>
+      </select>
+      <br>
+      <br>
+      <br>
+      <br>
+
       <h2>Account aanmaken</h2>
-    <label for="E-mail">E-mail</label><br>
-    <input type="email" id="E-mail" name="E-mail"><br>
-    <label for="Password">Password</label><br>
-    <input type="password" id="password" name="Password"><br><br><br><br>
-    <button>Boek nu!</button>
-  </form>
+
+        <label for="E-mail">E-mail</label><br>
+
+        <input type="email" id="E-mail" name="E-mail"><br>
+
+        <label for="Password">Password</label><br>
+        <input type="password" id="password" name="Password">
+        <br>
+        <br>
+        <br>
+        <br>
+        <button>Boek nu!</button>
+      </form>
+    </body>
+    </html>
