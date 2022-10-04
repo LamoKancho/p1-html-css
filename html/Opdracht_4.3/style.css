@@ -3,11 +3,8 @@ html {
   color: white;
 }
 body {
+  
   font-family: "Goldman", cursive;
-  background-image: url(/first_year_tcr_exercise/img/hacker.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position: 75vh 10vw;
   background-color: black;
   width: 95vw;
   height: 100vh;
@@ -60,6 +57,17 @@ font-family: Verdana;
 section {
   position: 100vw 100vh ;
 }
-.grote {
- 
+body {
+  background-image:url(/p1-html-css/html/Opdracht_4.3/img/hacker.png) ;
+  width: 95vw;
+  height: 100vh;
+  background-position: center ;
+  background-attachment: local;
+  background-repeat: no-repeat;
+}
+footer {
+  background-color: #00a8c7;
+  width: 100%;
+  max-height: 20%;
+  height: 100%;
 }
