@@ -1,0 +1,26 @@
+
+body {
+  background-color: yellow;
+}
+.MenuContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .MenuContainer {
+    display: flex;
+    flex-direction:column ;
+  }
+}
+@media only screen and (min-width:600px) and (max-width: 1000px) {
+    body {
+        background-color: orange;
+    }
+}
+
+

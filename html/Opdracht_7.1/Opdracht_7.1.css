@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+.Parent {
+    display: flex;
+    height: 10vh;
+    background-color: red;
+}
+.child-1 {
+    height: 30vh;
+background-color: yellow;
+}
+.child-2 {
+    height: 30vh;
+background-color: orange;
+}
+.child-3 {
+    height: 30vh;
+background-color: green;
+}
+p {
+    display: flex;
+}
+h1 {
+    display: flex;
+}
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
